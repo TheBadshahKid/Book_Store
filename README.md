@@ -1,5 +1,3 @@
-
-
 # 📚 MERN Bookstore
 
 ![MERN](https://img.shields.io/badge/Stack-MERN-green?style=for-the-badge)
@@ -12,25 +10,27 @@ A **full-stack bookstore application** built using the **MERN** stack, featuring
 
 ## 🚀 Tech Stack
 
-| Layer       | Technology                                                                 |
-|-------------|-----------------------------------------------------------------------------|
-| **Frontend**| React.js, Tailwind CSS, Redux Toolkit, RTK Query                            |
-| **Backend** | Node.js, Express.js                                                         |
-| **Database**| MongoDB with Mongoose                                                       |
-| **Auth**    | JSON Web Tokens (JWT)                                                       |
-| **Tools**   | Axios, ESLint, Prettier, Git & GitHub                                       |
+| Layer        | Technology                                       |
+| ------------ | ------------------------------------------------ |
+| **Frontend** | React.js, Tailwind CSS, Redux Toolkit, RTK Query |
+| **Backend**  | Node.js, Express.js                              |
+| **Database** | MongoDB with Mongoose                            |
+| **Auth**     | JSON Web Tokens (JWT)                            |
+| **Tools**    | Axios, ESLint, Prettier, Git & GitHub            |
 
 ---
 
 ## ✨ Features
 
 ### 🛍 For Users
+
 - Browse and search for books
 - Add or remove books from cart
 - Place orders with **cash-on-delivery**
 - View cart and order summary
 
 ### 🛠 For Admin
+
 - Secure **JWT-based login**
 - Upload new books with details
 - Update or delete existing books
@@ -59,17 +59,18 @@ mern-bookstore/
 │
 └── README.md
 
-````
+```
 
 ---
 
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone Repository
+
 ```bash
 git clone https://github.com/yourusername/mern-bookstore.git
 cd mern-bookstore
-````
+```
 
 ### 2️⃣ Backend Setup
 
@@ -104,23 +105,23 @@ npm start
 
 ## 🔐 Admin Login
 
-* Default admin credentials can be seeded into the database or manually created.
-* JWT tokens are generated upon successful login for secure access.
+- Default admin credentials can be seeded into the database or manually created.
+- JWT tokens are generated upon successful login for secure access.
 
 ---
 
 ## 📌 Future Enhancements
 
-* Online payment integration (Stripe / Razorpay)
-* Book reviews & ratings
-* Advanced search & filtering
-* Order tracking & email notifications
+- Online payment integration (Stripe / Razorpay)
+- Book reviews & ratings
+- Advanced search & filtering
+- Order tracking & email notifications
 
 ---
 
 ## 🖼 Preview
 
-*(Screenshots or GIFs of your app can be placed here)*
+_(Screenshots or GIFs of your app can be placed here)_
 
 ---
 
@@ -129,5 +130,7 @@ npm start
 This project is licensed under the [MIT License](LICENSE).
 
 ---
+
+```
 
 ```
